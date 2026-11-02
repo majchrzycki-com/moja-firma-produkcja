@@ -41,7 +41,7 @@ Nowe zamówienie od sieci. Przeprowadź analizę według instrukcji projektu, li
 node scripts/build.mjs
 ```
 
-Skrypt tworzy `dist/skills/` dla Anthropic Claude, OpenAI Codex, OpenClaw i Microsoft 365 Copilot Cowork oraz `dist/instrukcje/` z tekstem do wklejenia w agencie Microsoft 365 Copilot, Gemie Google Gemini albo projekcie OpenAI ChatGPT. Szczegóły instalacji w każdym narzędziu: [README rdzenia moja-firma](https://github.com/majchrzycki-com/moja-firma#instalacja).
+Skrypt tworzy `dist/skills/` dla Anthropic Claude, OpenAI Codex, Google Gemini, OpenClaw i Microsoft 365 Copilot Cowork oraz `dist/instrukcje/` z tekstem do wklejenia w agencie Microsoft 365 Copilot Agent Builder albo w projekcie OpenAI ChatGPT. Szczegóły instalacji w każdym narzędziu: [README rdzenia moja-firma](https://github.com/majchrzycki-com/moja-firma#instalacja).
 
 ## Ten sam agent krok po kroku
 
