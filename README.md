@@ -2,7 +2,7 @@
 
 **Agent zamówień sieci handlowych dla polskiej firmy: produkcja seryjna.** Czyta zamówienie sieci z PDF, dopasowuje linie do kartoteki po EAN i indeksie, sprawdza palety, stany, plan produkcji i kontrakt, liczy ryzyko kar i oddaje szkic potwierdzenia z listą wyjątków.
 
-Pakiet branżowy paczki [moja-firma](https://github.com/majchrzycki-com/moja-firma). Procedura w formacie [Agent Skills](https://agentskills.io/specification) (`SKILL.md`) działa w Claude, ChatGPT i Codex, Microsoft 365 Copilot, Gemini oraz OpenClaw.
+Pakiet branżowy paczki [moja-firma](https://github.com/majchrzycki-com/moja-firma). Procedura w formacie [Agent Skills](https://agentskills.io/specification) (`SKILL.md`) działa w Anthropic Claude, OpenAI ChatGPT i OpenAI Codex, Microsoft 365 Copilot, Google Gemini oraz OpenClaw.
 
 ## Czego agent nie zrobi
 
@@ -28,7 +28,7 @@ Nowe zamówienie od sieci. Przeprowadź analizę według instrukcji projektu, li
 
 ## Instalacja
 
-### Claude Code
+### Anthropic Claude Code
 
 ```text
 /plugin marketplace add majchrzycki-com/moja-firma
@@ -41,14 +41,14 @@ Nowe zamówienie od sieci. Przeprowadź analizę według instrukcji projektu, li
 node scripts/build.mjs
 ```
 
-Skrypt tworzy `dist/skills/` dla Claude, Codex, OpenClaw i Copilot Cowork oraz `dist/instrukcje/` z tekstem do wklejenia w agencie Microsoft 365 Copilot, Gemie albo projekcie ChatGPT. Szczegóły instalacji w każdym narzędziu: [README rdzenia moja-firma](https://github.com/majchrzycki-com/moja-firma#instalacja).
+Skrypt tworzy `dist/skills/` dla Anthropic Claude, OpenAI Codex, OpenClaw i Microsoft 365 Copilot Cowork oraz `dist/instrukcje/` z tekstem do wklejenia w agencie Microsoft 365 Copilot, Gemie Google Gemini albo projekcie OpenAI ChatGPT. Szczegóły instalacji w każdym narzędziu: [README rdzenia moja-firma](https://github.com/majchrzycki-com/moja-firma#instalacja).
 
 ## Ten sam agent krok po kroku
 
-- [Agent zamówień sieci handlowych w Claude](https://majchrzycki.com/blog/agent-zamowien-sieci-w-claude-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zamowienie-sieci)
+- [Agent zamówień sieci handlowych w Anthropic Claude](https://majchrzycki.com/blog/agent-zamowien-sieci-w-claude-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zamowienie-sieci)
 - [Agent zamówień sieci handlowych w Microsoft 365 Copilot](https://majchrzycki.com/blog/agent-zamowien-sieci-w-microsoft-365-copilot-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zamowienie-sieci)
-- [Agent zamówień sieci handlowych w ChatGPT](https://majchrzycki.com/blog/agent-zamowien-sieci-w-chatgpt-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zamowienie-sieci)
-- [Agent zamówień sieci handlowych w Gemini](https://majchrzycki.com/blog/agent-zamowien-sieci-w-gemini-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zamowienie-sieci)
+- [Agent zamówień sieci handlowych w OpenAI ChatGPT](https://majchrzycki.com/blog/agent-zamowien-sieci-w-chatgpt-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zamowienie-sieci)
+- [Agent zamówień sieci handlowych w Google Gemini](https://majchrzycki.com/blog/agent-zamowien-sieci-w-gemini-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zamowienie-sieci)
 
 Gdzie ten agent mieści się w całej firmie i jakich jeszcze agentów potrzebuje produkcja seryjna: [darmowy poradnik branżowy](https://majchrzycki.com/transformacja-agenci-ai/produkcja-seryjna?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zamowienie-sieci#pobierz).
 
