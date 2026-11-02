@@ -1,0 +1,4 @@
+﻿odbiorca_id;odbiorca;czas_realizacji_dni;kara_za_niedostawe_proc_wartosci_linii;kara_za_spoznione_okno_pln;bonus_retro_proc;etykieta_logistyczna;poziom_serwisu_min_proc;termin_platnosci_dni
+O-0042;Sieć Dom i Ogród S.A.;10;3.0;1500;4.5;GS1-128 z numerem SSCC na każdej palecie;97;60
+O-0017;Meblex Dystrybucja sp. z o.o.;7;0.0;0;2.0;etykieta producenta;95;30
+O-0088;Hurtownia Wnętrza s.c.;5;0.0;0;0.0;etykieta producenta;0;21

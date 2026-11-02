@@ -1,0 +1,19 @@
+{
+  "name": "moja-firma-produkcja",
+  "version": "0.1.0",
+  "description": "Agent zamówień sieci handlowych dla polskiej firmy (produkcja seryjna). Czyta zamówienie sieci z PDF, dopasowuje linie do kartoteki po EAN i indeksie, sprawdza palety, stany, plan produkcji i kontrakt, liczy ryzyko kar i oddaje szkic potwierdzenia z listą wyjątków.",
+  "author": {
+    "name": "Krzysztof Majchrzycki",
+    "url": "https://majchrzycki.com"
+  },
+  "homepage": "https://majchrzycki.com/blog/agent-zamowien-sieci-w-claude-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zamowienie-sieci",
+  "repository": "https://github.com/majchrzycki-com/moja-firma-produkcja",
+  "license": "MIT",
+  "keywords": [
+    "msp",
+    "polska",
+    "zamowienie-sieci",
+    "agent-skills",
+    "skill-md"
+  ]
+}
