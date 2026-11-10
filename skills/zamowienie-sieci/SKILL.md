@@ -1,6 +1,6 @@
 ---
 name: zamowienie-sieci
-description: Analizuje zamówienie sieci handlowej lub dystrybutora w fabryce produkującej seryjnie (PDF): dopasowuje linie po EAN i indeksie, sprawdza palety jednorodne, stany i plan produkcji, liczy ryzyko kar z kontraktu i różnice cen, i oddaje szkic potwierdzenia z listą wyjątków. Użyj, gdy przychodzi zamówienie od sieci, przy awizacji, niedostawach, karach kontraktowych albo wycofanych indeksach.
+description: "Analizuje zamówienie sieci handlowej lub dystrybutora w fabryce produkującej seryjnie (PDF): dopasowuje linie po EAN i indeksie, sprawdza palety jednorodne, stany i plan produkcji, liczy ryzyko kar z kontraktu i różnice cen, i oddaje szkic potwierdzenia z listą wyjątków. Użyj, gdy przychodzi zamówienie od sieci, przy awizacji, niedostawach, karach kontraktowych albo wycofanych indeksach."
 license: MIT
 metadata:
   autor: Krzysztof Majchrzycki
